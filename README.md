@@ -18,6 +18,8 @@ The goal of the project was to learn how to quickly create a simple dashboard, a
 
 ## 🖼️ Dashboard Preview
 
+### Topline Performance
+
 ![Topline Performance Screenshot](images/Screenshot_1-Topline_Performance.png)
 
 ---
