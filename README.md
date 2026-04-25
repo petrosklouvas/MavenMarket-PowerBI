@@ -2,7 +2,7 @@
 
 ## 🧭 Project Overview
 
-This project analyzes the sales performance of a bike shop over a 3-year span, with a detailed analysis of different products, the product categories they belong to, and sales across different regions using an interactive Power BI dashboard.
+This project analyzes the sales performance of a market chain, emphasizing on the profit margin and return rate of each product brand, transactions in each region, as well as the importance in the scaling of the weekly revenue.
 
 ---
 
@@ -10,10 +10,9 @@ This project analyzes the sales performance of a bike shop over a 3-year span, w
 
 This Power BI project was developed as part of the "Microsoft Power BI Desktop for Business Intelligence" course on Udemy, during Oct-Nov/2025.
 
-The goal of the project was to learn more about Power BI features, as well as to practice:
-- ETL processes
+The goal of the project was to learn how to quickly create a simple dashboard, as well as to practice:
 - data modeling
-- building interactivity into dashboards
+- formatting options
 
 ---
 
@@ -21,19 +20,7 @@ The goal of the project was to learn more about Power BI features, as well as to
 
 ### Exec Dashboard
 
-![Exec Dashboard Screenshot](images/Screenshot_1-Exec_Dashboard.png)
-
-### Map
-
-![Map Screenshot](images/Screenshot_2-Map.png)
-
-### Product Detail
-
-![Product Detail Screenshot](images/Screenshot_3-Product_Detail.png)
-
-### Customer Detail
-
-![Customer Detail Screenshot](images/Screenshot_4-Customer_Detail.png)
+![Topline Performance Screenshot](images/Screenshot_1-Topline_Performance.png)
 
 ---
 
