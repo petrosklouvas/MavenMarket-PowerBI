@@ -82,17 +82,15 @@ Total Returns = COUNTROWS(Return_Data)
 
 ---
 
-## ✨ Dashboards Features
+## ✨ Dashboard Features
 
-The dashboards include:
+The dashboard includes:
 
-* **Revenue trend analysis over time**
-* **Product category tooltip with key measures**
-* **Product drill through option**
-* **Regional performance comparison on orders**
-* **Product price adjustment profit gain**
-* **Interactive slicers and filters**
-* **Left sidebar menu for easier navigation across the report**
+* **Current month's KPIs**
+* **Key measures for each product brand**
+* **Map with regional sales**
+* **Weekly revenue trending**
+* **Filtering across visuals**
 
 ---
 
@@ -100,7 +98,6 @@ The dashboards include:
 
 Some insights identified from the analysis:
 
-* The most ordered product type was **Tires and Tubes**, while the most returned **Shorts**.
-* The **United States** has the most orders of all regions.
-* **Customers with a high income make the least amount of orders**.
-* **Among customers in management roles, mr. Jordan Turner drove the most revenue**.
+* This month the company made **bigger profit**, but had **more returns**.
+* Across data from all cities, **Hidalgo** had the most transactions.
+* This month the **revenue target was hit**.
