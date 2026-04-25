@@ -28,17 +28,16 @@ The goal of the project was to learn how to quickly create a simple dashboard, a
 
 Taking a look at the data from a business point of view, this project also aims to answer key questions, such as:
 
-* Which product is returned the most?
-* Which regions generate the highest revenue?
-* How does a possible price adjustment affect a product's profit?
-* How do sales trend over time?
-* Which customer drives the most revenue?
+* Is the current profit and revenue of the company higher than last month's?
+* Are this month's returns less than last month's?
+* Which product brand's products are bought the most?
+* Which regions and cities sell the most?
 
 ---
 
 ## 📁 Dataset Source
 
-The dataset used in this project was provided in the course. It is based on the "Adventure Works" dataset, which is a free and publicly available dataset.
+The dataset used in this project was provided in the course and is based on the "Maven Market" dataset, which is a free and publicly available dataset.
 
 ---
 
@@ -48,47 +47,38 @@ A structured data model was implemented in Power BI to optimize analysis. The da
 
 Key components:
 
-* Fact tables: **Sales Data**, **Returns Data**
+* Fact tables: **Transaction Data**, **Return Data**
 * Dimension tables (Lookup tables):
 
-  * Territory
   * Calendar
-  * Product
-  * Customer
-  * Product Subcategories
-  * Product Categories
+  * Products
+  * Customers
+  * Stores
+  * Regions
 
 Relationships between the fact and dimension tables were created, in order to support **time-based and categorical analysis**.
 
-Through the data analysis, some extra tables have been created and added to the final data model, such as a **Measure Table** and a **Model Measures** table. The first one organizes all measures created in folders and the latter explains their expression with a brief description, respectively.
+Through the data analysis, an extra **Measure Table** has been created and added to the final data model, which contains all measures created in folders.
 
 ---
 
 ## 🧮 Key Measures (DAX)
 
-Identifying KPIs that we can make the most out of this dataset is an essential part of the project. The most important KPIs, which are also displayed at the top of the main ("Exec") dashboard, are:
+Identifying KPIs that we can make the most out of this dataset is an essential part of the project. The most important KPIs, which are also displayed at the top of the dashboard, are:
 
-* Revenue
+* Transactions
 * Profit
-* Orders
-* Return Rate
+* Returns
 
 Those KPIs were calculated using DAX functions in Power BI:
 
 ```DAX
-Total Revenue = SUMX(
-    'Sales Data',
-    'Sales Data'[OrderQuantity] * RELATED('Product Lookup'[ProductPrice])
-)
+Total Transactions = COUNTROWS(Transaction_Data)
 
 Total Profit = [Total Revenue] - [Total Cost]
 
-Total Orders = DISTINCTCOUNT('Sales Data'[OrderNumber])
-
-Return Rate = DIVIDE([Quantity Returned], [Quantity Sold], "No Sales")
+Total Returns = COUNTROWS(Return_Data)
 ```
-
-These measures allow dynamic aggregation across filters and visuals.
 
 ---
 
