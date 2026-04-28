@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/MavenMarket_Logo.png" alt="Logo Screenshot" width="400">
+</p>
+
 # 📊 Maven Market Report (Power BI)
 
 ## 🧭 Project Overview
