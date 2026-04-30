@@ -8,11 +8,11 @@
 
 This project analyzes the sales performance of a market chain, emphasizing on the profit margin and return rate of each product brand, transactions in each region, as well as the importance in the scaling of the weekly revenue.
 
+It was developed as part of the "Microsoft Power BI Desktop for Business Intelligence" course on Udemy, provided by Maven Analytics, during Oct-Nov/2025.
+
 ---
 
 ## 📚 Learning Context
-
-This Power BI project was developed as part of the "Microsoft Power BI Desktop for Business Intelligence" course on Udemy, during Oct-Nov/2025.
 
 The goal of the project was to learn how to quickly create a simple dashboard, as well as to practice:
 - data modeling
@@ -28,6 +28,12 @@ The goal of the project was to learn how to quickly create a simple dashboard, a
 
 ---
 
+## 📁 Dataset Source
+
+The dataset used in this project was provided in the course and is based on the "Maven Market" dataset, which is a free and publicly available dataset.
+
+---
+
 ## 🎯 Business Approach
 
 Taking a look at the data from a business point of view, this project also aims to answer key questions, such as:
@@ -36,12 +42,6 @@ Taking a look at the data from a business point of view, this project also aims 
 * Are this month's returns less than last month's?
 * Which product brand's products are bought the most?
 * Which regions and cities sell the most?
-
----
-
-## 📁 Dataset Source
-
-The dataset used in this project was provided in the course and is based on the "Maven Market" dataset, which is a free and publicly available dataset.
 
 ---
 
