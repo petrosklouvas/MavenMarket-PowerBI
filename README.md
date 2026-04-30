@@ -20,14 +20,6 @@ The goal of the project was to learn how to quickly create a simple dashboard, a
 
 ---
 
-## 🖼️ Dashboard Preview
-
-### Topline Performance
-
-![Topline Performance Screenshot](images/Screenshot_1-Topline_Performance.png)
-
----
-
 ## 📁 Dataset Source
 
 The dataset used in this project was provided in the course and is based on the "Maven Market" dataset, which is a free and publicly available dataset.
@@ -83,6 +75,14 @@ Total Profit = [Total Revenue] - [Total Cost]
 
 Total Returns = COUNTROWS(Return_Data)
 ```
+
+---
+
+## 🖼️ Dashboard Preview
+
+### Topline Performance
+
+![Topline Performance Screenshot](images/Screenshot_1-Topline_Performance.png)
 
 ---
 
