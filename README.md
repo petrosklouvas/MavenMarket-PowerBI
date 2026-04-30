@@ -60,7 +60,7 @@ Key components:
 
 Relationships between the fact and dimension tables were created, in order to support **time-based and categorical analysis**.
 
-Through the data analysis, an extra **Measure Table** has been created and added to the final data model, which contains all measures created in folders.
+Additionally, an extra **Measure Table** has been created, which contains all measures created organized in folders.
 
 ---
 
