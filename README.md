@@ -14,9 +14,15 @@ It was developed as part of the "Microsoft Power BI Desktop for Business Intelli
 
 ## 📚 Learning Context
 
-The goal of the project was to learn how to quickly create a simple dashboard, as well as to practice:
-- data modeling
-- formatting options
+This project was created as a smaller practice exercise focused on building a simple Power BI dashboard within a short development time.
+
+The objective was to strengthen fundamental Power BI skills, including:
+
+• creating a basic data model and defining relationships between tables  
+• applying formatting and layout options to improve dashboard readability  
+• designing a clear and concise dashboard structure for quick insights
+
+Although the scope of the project is relatively small, it helped reinforce core concepts that are essential for building more complex analytical dashboards.
 
 ---
 
